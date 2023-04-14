@@ -22,7 +22,7 @@
 
 ## 💻 Regras implementadas:
 
-### Na criação do Estudante:
+### No cadastro de um Estudante:
 - É criado uma criptografia para a senha cadastrada e essa nova senha em forma de código é armazenada no banco de dados (Mongoose);
 
 ### Autenticação do Estudante: 
