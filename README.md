@@ -14,16 +14,20 @@
 
 ## ⚙ Modificações no projeto 👉 [Link do Projeto base 🖱](https://github.com/lucarauj/School-Node-MJV-Semana-5/tree/main/Aula%202/projeto-school-node%202)
 
-- Instalação do Bcrypt: ```npm install --save bcrypt``` - ```npm install --save-dev @types/bcrypt```
-- Instalação do Jsonwebtoken: ```npm install --save jsonwebtoken``` - ```npm install --save-dev @types/jsonwebtoken```
+- Instalação do Bcrypt: ```npm install --save bcrypt``` ➕ ```npm install --save-dev @types/bcrypt```
+- Instalação do Jsonwebtoken: ```npm install --save jsonwebtoken``` ➕ ```npm install --save-dev @types/jsonwebtoken```
 
 
 <br>
 
 ## 💻 Regras implementadas:
 
-- Autenticação do Estudante: faz uma verificação no Banco de dados (Mongoose) para checar se o Estudante está cadastrado e se a senha confere;
-- Em caso positivo para as duas verificações, é gerado um Token e à partir dele o Estudante pode fazer as alterações que desejar nas rotas existentes (Criar, Buscar, Atualizar e Deletar).
+### Na criação do Estudante:
+- É criado uma criptografia para a senha cadastrada e essa nova senha em forma de código é armazenada no banco de dados (Mongoose);
+
+### Autenticação do Estudante: 
+- Faz uma verificação no Banco de dados para checar se o Estudante está cadastrado e se a senha confere;
+- Em caso positivo para as duas verificações, é gerado um Token e à partir dele o usuário pode fazer as alterações que desejar nas rotas existentes (Criar, Buscar, Atualizar e Deletar).
 
 <br>
 
